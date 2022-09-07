@@ -7,7 +7,7 @@ let _uptime = process.uptime() * 1000
    let ar = ['list', 'menu']
    let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
     let sel = `*© Rtxzy*`
-    let rs = `Click Here`
+    let rs = `khtar li bghiti `
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
 	rows: [
