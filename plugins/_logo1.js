@@ -8,6 +8,6 @@ let handler = async (m, { conn, args }) => {
 }
 handler.help = ['logo1'].map(v => v + ' <text>')
 handler.tags = ['maker']
-handler.command = /^(flaming1)$/i
+handler.command = /^(logo1)$/i
 
 module.exports = handler
