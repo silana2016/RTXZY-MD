@@ -4,7 +4,7 @@ let handler = async (m, { conn, command }) => {
   if (res.status != 200) throw await res.text()
   let json = await res.json()
   if (!json.status) throw json
-conn.sendButtonImg(m.chat, json.result.female,  'TSAWR DYAL ANIM HHH', wm, 'DOZ LTSWIRA LOKHRA', '.ppcp', m)
+conn.sendButtonImg(m.chat, json.result.female,  'instagram.com/noureddine_ouafy', wm, 'DOZ LTSWIRA LOKHRA', '.ppcp', m)
 conn.sendFile(m.chat, json.result.male,'pria.jpg',  'TSAWR DYAL ANIM HHH', m)
 
 }
