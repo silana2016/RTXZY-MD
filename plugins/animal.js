@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 ┌
 ${ar.map(v => '├ ' + v).join`\n`}
 └────
-Contoh:
+*matalan dir hakka*:
 ${usedPrefix}${command} panda
 `.trim()
   if (!text) throw er
