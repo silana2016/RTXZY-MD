@@ -10,7 +10,7 @@ conn.sendFile(m.chat, json.result.male,'pria.jpg',  'instagram.com/noureddine_ou
 }
 handler.help = ['ppcp']
 handler.tags = ['internet']
-handler.command = /^p$/i
+handler.command = /^tsawr$/i
 
 
 module.exports = handler
