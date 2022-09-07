@@ -11,9 +11,8 @@ let _uptime = process.uptime() * 1000
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
 	rows: [
-	    {title: `Semua Perintah`, rowId: `.a `},//, description: ``},
-            {title: `All CMD Payment`, rowId: `.pay `},//, description: ``},
-	    {title: `Owner`, rowId: `#owner `},//, description: ``},
+	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: ``},
+	{title: `Owner`, rowId: `#owner `},//, description: ``},
         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
         {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
