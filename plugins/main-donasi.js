@@ -5,8 +5,8 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hai 👋
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
+let anu = `مرحبا خويا👋
+هاد البوت لي قدامك راه سيمانة وانا كنعدل عليه يعني ضربت عليه تمارة باش نرجعو بالدارجة  مافيها باس يدخل يفرج فهاد الفيديو ووردثي للناس كفاش يصايبو بحالو :
 ┌〔 Donasi • Emoney 〕
 ├ Dana : ${dana}
 ├ Pulsa : ${pulsa}
