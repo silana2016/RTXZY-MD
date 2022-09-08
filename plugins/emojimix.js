@@ -64,7 +64,7 @@ if (!args[0]) throw 'hada imkn lik tjm3 joj dyal emojie f emojie wahd  dir bhal 
 handler.help = ['emojimix']
 handler.tags = ['sticker']
 handler.command = /^(emojimix)$/i
-handler.limit = true 
+handler.limit = false
 module.exports = handler
 
 
