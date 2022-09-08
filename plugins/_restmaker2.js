@@ -6,7 +6,7 @@ let handler = async (m, { conn, args }) => {
   let res = `https://botcahx-rest-api.herokuapp.com/api/photooxy/shadow-sky?text=${response[0]}`
   conn.sendFile(m.chat, res, 'botcahx.jpg', `© instagram.com/noureddine_ouafy`, m, false)
 }
-handler.help = ['flaming8'].map(v => v + ' <text>')
+handler.help = ['logo4].map(v => v + ' <text>')
 handler.tags = ['maker']
 handler.command = /^(logo4)$/i
 
