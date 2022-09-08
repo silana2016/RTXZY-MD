@@ -14,7 +14,7 @@ let animeingfo = `✨️ *l3onwan:* ${title}
 ❤️ *Score dyalo :* ${score}
 👥 *xhal mn wahd tfaraj fih imkn :* ${members}
 💚️ *info alih:* ${synopsis}
-🌐️ *lien ila bghiti tfraj fih *: ${url}`
+🌐️ *lien ila bghiti tfraj fih*: ${url}`
   conn.sendFile(m.chat, image_url, '', animeingfo, m)
 }
 handler.help = ['anime <judul>']
