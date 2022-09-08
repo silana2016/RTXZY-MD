@@ -5,14 +5,14 @@ let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
    let ar = ['list', 'menu']
-   let ras = `Hai Kak  @${m.sender.split('@')[0]} 👋`
-    let sel = `*© Rtxzy*`
+   let ras = `salam 3alikom si  @${m.sender.split('@')[0]} 👋`
+    let sel = `*© instagram.com/noureddine_ouafy*`
     let rs = `khtar li bghiti `
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
 	rows: [
 	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: ``},
-	{title: `Owner`, rowId: `#owner `},//, description: ``},
+	{title: `mol lbot`, rowId: `#owner `},//, description: ``},
         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
         {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
@@ -24,7 +24,7 @@ const sections = [ {
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: 'Jika menemukan bug,error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.',
+  footer: 'instagram.com/noureddine_ouafy.',
   title: ras,
   buttonText: rs,
   sections
