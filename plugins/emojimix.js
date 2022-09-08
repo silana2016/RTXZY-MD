@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, args, usedPrefix }) => {
 Example:
 ${usedPrefix}emojimix 🤨😠`
 
-let ers = `*Emoticon is not supported.*`
+let ers = `*dir chi emojie wahd akhor.*`
 if (!text) throw er
 try {
 	let res = await fetchJson('https://api.neoxr.eu.org/api/emoji?q=' + encodeURIComponent(text) + '&apikey=yourkey')
@@ -47,7 +47,7 @@ const { MessageType } = require('@adiwajshing/baileys')
 const { sticker } = require('../lib/sticker')
 
 let handler = async (m, { conn, text, args }) => {
-if (!args[0]) throw 'Contoh penggunaan:\n\n*.emojimix 🤨+😣*'
+if (!args[0]) throw 'hada imkn lik tjm3 joj dyal emojie f emojie wahd  dir bhal haka   penggunaan:\n\n*.emojimix 🤨+😣*'
    	let [emoji1, emoji2] = text.split`+`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
