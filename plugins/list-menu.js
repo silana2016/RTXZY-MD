@@ -24,7 +24,7 @@ const sections = [ {
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: 'instagram.com/noureddine_ouafy.',
+  footer: 'مرحبا كيف حالك صديقي لبس عليك كولشي مزيان شوف متصباميش علا البوت مفهمتيش شي حاجة توصال مع مول البوت ماشي غي تبقا تجرب غي هكاك',
   title: ras,
   buttonText: rs,
   sections
