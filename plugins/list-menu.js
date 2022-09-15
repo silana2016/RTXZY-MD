@@ -7,7 +7,7 @@ let _uptime = process.uptime() * 1000
    let ar = ['list', 'menu']
    let ras = `طبيعة ربيعة معاك حروبات اخويا 😆  @${m.sender.split('@')[0]} 👋`
     let sel = `*❀ instagram.com/noureddine_ouafy*`
-    let rs = `khtar li bghiti `
+    let rs = `clicki hna akhoya ⭐ `
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
 	rows: [
@@ -24,7 +24,7 @@ const sections = [ {
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: 'مرحبا كيف حالك صديقي لبس عليك كولشي مزيان شوف متصباميش علا البوت مفهمتيش شي حاجة توصال مع مول البوت ماشي غي تبقا تجرب غي هكاك',
+  footer: '╰┈➤ mal3ooooba مرحبا كيف حالك صديقي لبس عليك كولشي مزيان شوف متصباميش علا البوت مفهمتيش شي حاجة توصال مع مول البوت ماشي غي تبقا تجرب غي هكاك',
   title: ras,
   buttonText: rs,
   sections
