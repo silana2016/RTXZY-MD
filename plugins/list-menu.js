@@ -12,9 +12,8 @@ let _uptime = process.uptime() * 1000
 const sections = [ {
 	title: `☁️ ${uptime} || ⏲️ ${time} WIB`,
 	rows: [
-	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: `اظغط هنا لتنبتق لك جميع الاوامر`},
-        {title: `Donasi`, rowId: `#donasi `},//, description: ``},
-        {title: `Script`, rowId: `#sc `},//, description: ``},
+	{title: `اشنو يقدر يدير هاد البوت `, rowId: `.a `},//, description: `اظغط هنا لتنبتق لك جميع الاوامر`},
+        {title: `كفاش تخدم البوت `, rowId: `#sc `},//, description: ``},
         {title: `صفحتى على الفيسبوك`, rowId: `#gcbot `},//, description: ``},
         {title: `سرعة البوت`, rowId: `#speed `},//, description: ``},
 		
