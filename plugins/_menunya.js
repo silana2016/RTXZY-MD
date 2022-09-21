@@ -163,7 +163,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herok
               body: '© bobiz bot',
               description: 'https://instagram.com/noureddine_ouafy', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/d6ba998ae8bcabfc24162.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/49a5f72f1298c2b6bc708.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/noureddine_ouafy` 
           }  
        }  
@@ -201,11 +201,11 @@ function ucapan() {
         } else if (hour_now >= '15' && hour_now <= '17') {
           ucapanWaktu = 'Sore'
         } else if (hour_now >= '17' && hour_now <= '18') {
-          ucapanWaktu = 'Selamat Petang'
+          ucapanWaktu = 'slm'
         } else if (hour_now >= '18' && hour_now <= '23') {
-          ucapanWaktu = 'Malam'
+          ucapanWaktu = 'hello'
         } else {
-          ucapanWaktu = 'Selamat Malam'
+          ucapanWaktu = 'سلام عليكم'
         }	
         return ucapanWaktu
 }
