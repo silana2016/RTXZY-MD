@@ -148,9 +148,9 @@ const ftroli = {
                             itemCount : 9999999999999,
                             status: 1,
                             surface : 1,
-                            message: 'TioXd Official',
-                            orderTitle: 'MENU',
-                            thumbnail: await (await fetch('https://telegra.ph/file/3911d7aaaa8733314f70f.png')).buffer(),
+                            message: 'Bobiz bot',
+                            orderTitle: 'ملعوبـــة ودايزا عواشر 😝',
+                            thumbnail: await (await fetch('https://telegra.ph/file/49a5f72f1298c2b6bc708.jpg')).buffer(),
                             sellerJid: '0@s.whatsapp.net'
           
                           }
@@ -164,8 +164,8 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herok
               body: '© bobiz bot',
               description: 'https://instagram.com/noureddine_ouafy', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/00faf159ce0349901eaf3.jpg')).buffer(), 
-           mediaUrl: `https://www.facebook.com/tio.permana.50999` 
+            thumbnail: await (await fetch('https://telegra.ph/file/49a5f72f1298c2b6bc708.jpg')).buffer(), 
+           mediaUrl: `https://instagram.com/noureddine_ouafy` 
           }  
        }  
       })
