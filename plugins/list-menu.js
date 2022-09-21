@@ -10,15 +10,13 @@ let _uptime = process.uptime() * 1000
     let sel = `*❀ instagram.com/noureddine_ouafy*`
     let rs = `clicki hna akhoya ⭐ `
 const sections = [ {
-	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
+	title: `☁️ ${uptime} || ⏲️ ${time} WIB`,
 	rows: [
 	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: `اظغط هنا لتنبتق لك جميع الاوامر`},
         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
         {title: `Script`, rowId: `#sc `},//, description: ``},
-        {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
-        {title: `Speed`, rowId: `#speed `},//, description: ``},
-        {title: `List Texpro Maker`, rowId: `#textpro `},//, description: ``},
-        ]
+        {title: `صفحتى على الفيسبوك`, rowId: `#gcbot `},//, description: ``},
+        {title: `سرعة البوت`, rowId: `#speed `},//, description: ``},
  } ]
 
 const listMessage = {
