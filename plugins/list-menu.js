@@ -17,7 +17,7 @@ const sections = [ {
         {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `صفحتى على الفيسبوك`, rowId: `#gcbot `},//, description: ``},
         {title: `سرعة البوت`, rowId: `#speed `},//, description: ``},
-		
+        ]
  } ]
 
 const listMessage = {
