@@ -12,7 +12,6 @@ let tags = {
   'advanced': 'ADVANCED',
   'absen': 'MENU ABSEN',
   'anime': 'MENU ANIME',
-  'fun': 'MENU FUN',
   'github': 'MENU GITHUB',
   'group': 'MENU GROUP',
   'internet': 'INTERNET',
