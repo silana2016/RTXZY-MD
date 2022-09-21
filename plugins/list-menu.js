@@ -11,8 +11,7 @@ let _uptime = process.uptime() * 1000
 const sections = [ {
 	title: `☁️ Aktif ${uptime} || ⏲️ Jam ${time} WIB`,
 	rows: [
-	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: ``},
-	{title: `mol lbot`, rowId: `#owner `},//, description: ``},
+	{title: `menu kaml dyal lbot`, rowId: `.a `},//, description: `اظغط هنا لتنبتق لك جميع الاوامر`},
         {title: `Donasi`, rowId: `#donasi `},//, description: ``},
         {title: `Script`, rowId: `#sc `},//, description: ``},
         {title: `Group Official`, rowId: `#gcbot `},//, description: ``},
@@ -24,7 +23,7 @@ const sections = [ {
 const listMessage = {
   text: sel,
   mentions: [m.sender],
-  footer: '╰┈➤ mal3ooooba مرحبا كيف حالك صديقي لبس عليك كولشي مزيان شوف متصباميش علا البوت مفهمتيش شي حاجة توصال مع مول البوت ماشي غي تبقا تجرب غي هكاك',
+  footer: '╰┈➤ مرحبا كيف حالك صديقي لبس عليك كولشي مزيان شوف متصباميش علا البوت مفهمتيش شي حاجة توصال مع مول البوت ماشي غي تبقا تجرب غي هكاك',
   title: ras,
   buttonText: rs,
   sections
