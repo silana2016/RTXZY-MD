@@ -155,7 +155,7 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herokuapp.com/api/walpaperanime')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herokuapp.com/api/walpaperanime')).buffer(),  '*────────[ ملعوبة ودايزة عواشر مع بوبيز  ]────────*', text, 'شكون حنا', '.info', 'ليستا ديال الاوامر', '.menu', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
@@ -163,7 +163,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herok
               body: '© bobiz bot',
               description: 'https://instagram.com/noureddine_ouafy', 
               mediaType: 2,  
-            thumbnail: await (await fetch('https://telegra.ph/file/49a5f72f1298c2b6bc708.jpg')).buffer(), 
+            thumbnail: await (await fetch('https://telegra.ph/file/d6ba998ae8bcabfc24162.jpg')).buffer(), 
            mediaUrl: `https://instagram.com/noureddine_ouafy` 
           }  
        }  
