@@ -32,24 +32,7 @@ let tags = {
 const defaultMenu = {
   before: `
   </>
-╭─「 *${global.namebot}* 」  
-│ • Username : %name
-│ • Role : %role
-│ • Level : %level (%exp / %maxexp) %xp4levelup
-│ • Total XP : %totalexp XP
-│
-│ • Uptime : %uptime
-│ • Library : Baileys Multi Device
-│ • Tanggal Islam: %dateIslamic
-│ • Hari : %week %weton
-│ • Waktu: %time
-│ • Tanggal: %date
-│ • Version : %version
-│ • Prefix Used : *[ %p ]*
-│ • Database : %rtotalreg dari %totalreg 
-│ • Memory Used : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-│ • Free Apikey : bit.ly/freeapikey
-╰────
+https://instagram.com/noureddine_ouafy
 ╭─ 「 *USER INFO* 」
 │ • Pengguna :  %name 
 │ • Limit : %limit / day
